@@ -1,4 +1,4 @@
-with open("input_nums", 'r') as f:
+with open("./01/input_nums", 'r') as f:
     nums = [int(num) for num in f.read().split("\n") if num != ""]
 
 for (i, num1) in enumerate(nums):
